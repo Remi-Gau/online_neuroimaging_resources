@@ -1,6 +1,6 @@
 # online_neuroimaging_resources
 
-A laundry list of resources for MRI, fMRI, EEG, MEG...
+A laundry list of [online resources](.OnlineResources.md) for MRI, fMRI, EEG, MEG...
 
 
 ## How to contribute
@@ -17,8 +17,3 @@ You can check the **looking for** section right below to see what sections of th
 *   Material on DTI, ASL
 *   Material on connectivity: PPI, DCM, granger causality
 *   Material on licenses
-=======
-a laundry list of resources for MRI, fMRI, EEG, MEG...
-
-I am currently updating the [online resources](#OnlineResources.md) so this pretty much always very much work in progress: feel free to send more suggestions.
-
