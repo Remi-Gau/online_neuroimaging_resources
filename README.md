@@ -1,6 +1,6 @@
 # online_neuroimaging_resources
 
-A laundry list of [online resources](.OnlineResources.md) for MRI, fMRI, EEG, MEG...
+A laundry list of [online resources](.Main.md) for MRI, fMRI, EEG, MEG...
 
 
 ## How to contribute
