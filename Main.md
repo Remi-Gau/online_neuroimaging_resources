@@ -11,115 +11,115 @@ I am also working on a companion [reading list] (  ???  ).
 <!-- TOC -->
 
 - [On-line neuroimaging resources](#on-line-neuroimaging-resources)
-  - [Metalist](#metalist)
-    - [Neuroimaging Informatics Tools and Resources Clearinghouse](#neuroimaging-informatics-tools-and-resources-clearinghouse)
-    - [Lab guides and lab wikis](#lab-guides-and-lab-wikis)
-    - [Others](#others)
-  - [Online courses](#online-courses)
-  - [Video series](#video-series)
-    - [Mumford brainstats](#mumford-brainstats)
-    - [Andrew Jahn](#andrew-jahn)
-    - [Center for Brains, Minds and Machines](#center-for-brains-minds-and-machines)
-    - [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
-    - [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
-    - [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
-  - [Blogs](#blogs)
-  - [Where to ask for help](#where-to-ask-for-help)
-  - [Image formats](#image-formats)
-    - [s and q matrices](#s-and-q-matrices)
-    - [NIFTI](#nifti)
-  - [UNIX command line](#unix-command-line)
-  - [Matlab and SPM specific resources](#matlab-and-spm-specific-resources)
-    - [Matlab (   ???   )](#matlab-------)
-    - [SPM](#spm)
-  - [The python ecosystem (   ???   )](#the-python-ecosystem-------)
-  - [R](#r)
-  - [Web apps (   ???   )](#web-apps-------)
-    - [R based apps](#r-based-apps)
-    - [Vizualizaton](#vizualizaton)
-    - [Anatomy atlases (   ???   )](#anatomy-atlases-------)
-  - [EEG and MEG Softwares](#eeg-and-meg-softwares)
-  - [[BEFORE YOU START](BeforeYouStart.md)](#before-you-startbeforeyoustartmd)
-    - [[Reproducibility (   ???   )](BeforeYouStart.md/#reproducibility-------)](#reproducibility-------beforeyoustartmdreproducibility-------)
-    - [[Ethics and consent forms](BeforeYouStart.md/#ethics-and-consent-forms)](#ethics-and-consent-formsbeforeyoustartmdethics-and-consent-forms)
-    - [[Code and data management (   ???   )](BeforeYouStart.md/#code-and-data-management-------)](#code-and-data-management-------beforeyoustartmdcode-and-data-management-------)
-      - [[Code management](BeforeYouStart.md/#code-management)](#code-managementbeforeyoustartmdcode-management)
-        - [[Version control](BeforeYouStart.md/#version-control)](#version-controlbeforeyoustartmdversion-control)
-        - [[Coding style](BeforeYouStart.md/#coding-style)](#coding-stylebeforeyoustartmdcoding-style)
-        - [[Avoid selective debugging: unit tests, positive and negative control](#avoid-selective-debugging-unit-tests-positive-and-negative-control)](#avoid-selective-debugging-unit-tests-positive-and-negative-controlavoid-selective-debugging-unit-tests-positive-and-negative-control)
-      - [[Data: BIDS, Datalad and YODA](BeforeYouStart.md/#data-bids-datalad-and-yoda)](#data-bids-datalad-and-yodabeforeyoustartmddata-bids-datalad-and-yoda)
-        - [[BIDS](BeforeYouStart.md/#bids)](#bidsbeforeyoustartmdbids)
-        - [[Datalad](BeforeYouStart.md/#datalad)](#dataladbeforeyoustartmddatalad)
-        - [[YODA](BeforeYouStart.md/#yoda)](#yodabeforeyoustartmdyoda)
-      - [[Documentation (   ???   )](BeforeYouStart.md/#documentation-------)](#documentation-------beforeyoustartmddocumentation-------)
-  - [[PLANNING YOUR STUDY](PlanningYourStudy.md/#planning-your-study)](#planning-your-studyplanningyourstudymdplanning-your-study)
-    - [[Reusing data](PlanningYourStudy.md/#reusing-data)](#reusing-dataplanningyourstudymdreusing-data)
-    - [[Defining your terms and your task](PlanningYourStudy.md/#defining-your-terms-and-your-task)](#defining-your-terms-and-your-taskplanningyourstudymddefining-your-terms-and-your-task)
-    - [[Ontologies](PlanningYourStudy.md/#ontologies)](#ontologiesplanningyourstudymdontologies)
-    - [[Piloting (   ???   )](PlanningYourStudy.md/#piloting-------)](#piloting-------planningyourstudymdpiloting-------)
-    - [[Pre-registration](PlanningYourStudy.md/#pre-registration)](#pre-registrationplanningyourstudymdpre-registration)
-    - [[Optimizing your design](PlanningYourStudy.md/#optimizing-your-design)](#optimizing-your-designplanningyourstudymdoptimizing-your-design)
-    - [[Design efficiency (   ???   )](PlanningYourStudy.md/#design-efficiency-------)](#design-efficiency-------planningyourstudymddesign-efficiency-------)
-    - [[Power](PlanningYourStudy.md/#power)](#powerplanningyourstudymdpower)
-    - [[For MVPA: same analysis approach](PlanningYourStudy.md/#for-mvpa-same-analysis-approach)](#for-mvpa-same-analysis-approachplanningyourstudymdfor-mvpa-same-analysis-approach)
-    - [[Defining your region of interest (   ???   )](PlanningYourStudy.md/#defining-your-region-of-interest-------)](#defining-your-region-of-interest-------planningyourstudymddefining-your-region-of-interest-------)
-    - [[Using previous results (   ???   )](PlanningYourStudy.md/#using-previous-results-------)](#using-previous-results-------planningyourstudymdusing-previous-results-------)
-    - [[Localizers (   ???   )](PlanningYourStudy.md/#localizers-------)](#localizers-------planningyourstudymdlocalizers-------)
-    - [[Atlases](PlanningYourStudy.md/#atlases)](#atlasesplanningyourstudymdatlases)
-    - [[Non-standard templates (   ???   )](PlanningYourStudy.md/#non-standard-templates-------)](#non-standard-templates-------planningyourstudymdnon-standard-templates-------)
-  - [ONCE YOU HAVE DATA: quality control](#once-you-have-data-quality-control)
-  - [ONCE YOU HAVE DATA: preprocessing](#once-you-have-data-preprocessing)
-    - [Pipelines  (   ???   )](#pipelines--------)
-    - [Artefact/Noise removal (   ???   )](#artefactnoise-removal-------)
-      - [PCA  (   ???   )](#pca--------)
-      - [ICA  (   ???   )](#ica--------)
-      - [ART (   ???   )](#art-------)
-      - [ART repair (   ???   )](#art-repair-------)
-      - [Physiological noise  (   ???   )](#physiological-noise--------)
-      - [Motion](#motion)
-  - [ANALYSIS: general linear model](#analysis-general-linear-model)
-  - [ANALYSIS: Resting state (   ???   )](#analysis-resting-state-------)
-  - [Diffusion weighted imaging](#diffusion-weighted-imaging)
-  - [ANALYSIS: Model selection (   ???   )](#analysis-model-selection-------)
-  - [ANALYSIS: Statistical inferences and multiple comparison correction (MCP) (   ???   )](#analysis-statistical-inferences-and-multiple-comparison-correction-mcp-------)
-    - [Cluster based inference (   ???   )](#cluster-based-inference-------)
-    - [Family wise error (FWE) (   ???   )](#family-wise-error-fwe-------)
-    - [False discovery rate (FDR) (   ???   )](#false-discovery-rate-fdr-------)
-    - [Permutation tests (   ???   )](#permutation-tests-------)
-      - [SnPM (   ???   )](#snpm-------)
-      - [FSL PALM and Randomize(   ???   )](#fsl-palm-and-randomize------)
-      - [Freesurfer PALM (   ???   )](#freesurfer-palm-------)
-  - [ANALYSIS: Multivariate analysis (   ???   )](#analysis-multivariate-analysis-------)
-    - [Matlab based](#matlab-based)
-      - [TDT](#tdt)
-      - [ProNTo](#pronto)
-      - [RSA toolbox](#rsa-toolbox)
-      - [PCM toolbox](#pcm-toolbox)
-      - [cvMANOVA](#cvmanova)
-    - [Python based](#python-based)
-      - [pyMVPA](#pymvpa)
-      - [nilearn](#nilearn)
-    - [R based (   ???   )](#r-based-------)
-  - [ANALYSIS: Encoding models (   ???   )](#analysis-encoding-models-------)
-    - [Popeye](#popeye)
-    - [SAMSRF](#samsrf)
-  - [ANALYSIS: Robustness checks](#analysis-robustness-checks)
-  - [ANALYSIS: Computational neuroscience](#analysis-computational-neuroscience)
-    - [Free energy](#free-energy)
-    - [Dynamic causal modelling](#dynamic-causal-modelling)
-  - [ANALYSIS: Laminar and high-resolution MRI](#analysis-laminar-and-high-resolution-mri)
-  - [ANALYSIS: Meta analysis (   ???   )](#analysis-meta-analysis-------)
-  - [REPORTING METHODS AND RESULTS (also useful for reviewing papers)](#reporting-methods-and-results-also-useful-for-reviewing-papers)
-    - [A checklist: COBIDAS report](#a-checklist-cobidas-report)
-    - [Percent signal change (   ???   )](#percent-signal-change-------)
-    - [Making figures (   ???   )](#making-figures-------)
-    - [Tools to check results/statistics (   ???   )](#tools-to-check-resultsstatistics-------)
-    - [Peer review (   ???   )](#peer-review-------)
-  - [YOU ARE NOT DONE YET: sharing your code, data and your results](#you-are-not-done-yet-sharing-your-code-data-and-your-results)
-    - [Sharing code](#sharing-code)
-    - [NeuroImaging Data Model (NIDM)](#neuroimaging-data-model-nidm)
-    - [Sharing your data](#sharing-your-data)
-    - [Meta-analysis databases](#meta-analysis-databases)
+ # [Metalist](#metalist)
+   # [Neuroimaging Informatics Tools and Resources Clearinghouse](#neuroimaging-informatics-tools-and-resources-clearinghouse)
+   # [Lab guides and lab wikis](#lab-guides-and-lab-wikis)
+   # [Others](#others)
+ # [Online courses](#online-courses)
+ # [Video series](#video-series)
+   # [Mumford brainstats](#mumford-brainstats)
+   # [Andrew Jahn](#andrew-jahn)
+   # [Center for Brains, Minds and Machines](#center-for-brains-minds-and-machines)
+   # [Organization from human brain mapping (OHBM)](#organization-from-human-brain-mapping-ohbm)
+   # [fMRIf summer courses from the NIH](#fmrif-summer-courses-from-the-nih)
+   # [Conference on Cognitive Computational Neuroscience (CCN)](#conference-on-cognitive-computational-neuroscience-ccn)
+ # [Blogs](#blogs)
+ # [Where to ask for help](#where-to-ask-for-help)
+ # [Image formats](#image-formats)
+   # [s and q matrices](#s-and-q-matrices)
+   # [NIFTI](#nifti)
+ # [UNIX command line](#unix-command-line)
+ # [Matlab and SPM specific resources](#matlab-and-spm-specific-resources)
+   # [Matlab (   ???   )](#matlab-------)
+   # [SPM](#spm)
+ # [The python ecosystem (   ???   )](#the-python-ecosystem-------)
+ # [R](#r)
+ # [Web apps (   ???   )](#web-apps-------)
+   # [R based apps](#r-based-apps)
+   # [Vizualizaton](#vizualizaton)
+   # [Anatomy atlases (   ???   )](#anatomy-atlases-------)
+ # [EEG and MEG Softwares](#eeg-and-meg-softwares)
+ # [[BEFORE YOU START](BeforeYouStart.md)](#before-you-startbeforeyoustartmd)
+   # [[Reproducibility (   ???   )](BeforeYouStart.md/#reproducibility-------)](#reproducibility-------beforeyoustartmdreproducibility-------)
+   # [[Ethics and consent forms](BeforeYouStart.md/#ethics-and-consent-forms)](#ethics-and-consent-formsbeforeyoustartmdethics-and-consent-forms)
+   # [[Code and data management (   ???   )](BeforeYouStart.md/#code-and-data-management-------)](#code-and-data-management-------beforeyoustartmdcode-and-data-management-------)
+     # [[Code management](BeforeYouStart.md/#code-management)](#code-managementbeforeyoustartmdcode-management)
+       # [[Version control](BeforeYouStart.md/#version-control)](#version-controlbeforeyoustartmdversion-control)
+       # [[Coding style](BeforeYouStart.md/#coding-style)](#coding-stylebeforeyoustartmdcoding-style)
+       # [[Avoid selective debugging: unit tests, positive and negative control](#avoid-selective-debugging-unit-tests-positive-and-negative-control)](#avoid-selective-debugging-unit-tests-positive-and-negative-controlavoid-selective-debugging-unit-tests-positive-and-negative-control)
+     # [[Data: BIDS, Datalad and YODA](BeforeYouStart.md/#data-bids-datalad-and-yoda)](#data-bids-datalad-and-yodabeforeyoustartmddata-bids-datalad-and-yoda)
+       # [[BIDS](BeforeYouStart.md/#bids)](#bidsbeforeyoustartmdbids)
+       # [[Datalad](BeforeYouStart.md/#datalad)](#dataladbeforeyoustartmddatalad)
+       # [[YODA](BeforeYouStart.md/#yoda)](#yodabeforeyoustartmdyoda)
+     # [[Documentation (   ???   )](BeforeYouStart.md/#documentation-------)](#documentation-------beforeyoustartmddocumentation-------)
+ # [[PLANNING YOUR STUDY](PlanningYourStudy.md/#planning-your-study)](#planning-your-studyplanningyourstudymdplanning-your-study)
+   # [[Reusing data](PlanningYourStudy.md/#reusing-data)](#reusing-dataplanningyourstudymdreusing-data)
+   # [[Defining your terms and your task](PlanningYourStudy.md/#defining-your-terms-and-your-task)](#defining-your-terms-and-your-taskplanningyourstudymddefining-your-terms-and-your-task)
+   # [[Ontologies](PlanningYourStudy.md/#ontologies)](#ontologiesplanningyourstudymdontologies)
+   # [[Piloting (   ???   )](PlanningYourStudy.md/#piloting-------)](#piloting-------planningyourstudymdpiloting-------)
+   # [[Pre-registration](PlanningYourStudy.md/#pre-registration)](#pre-registrationplanningyourstudymdpre-registration)
+   # [[Optimizing your design](PlanningYourStudy.md/#optimizing-your-design)](#optimizing-your-designplanningyourstudymdoptimizing-your-design)
+   # [[Design efficiency (   ???   )](PlanningYourStudy.md/#design-efficiency-------)](#design-efficiency-------planningyourstudymddesign-efficiency-------)
+   # [[Power](PlanningYourStudy.md/#power)](#powerplanningyourstudymdpower)
+   # [[For MVPA: same analysis approach](PlanningYourStudy.md/#for-mvpa-same-analysis-approach)](#for-mvpa-same-analysis-approachplanningyourstudymdfor-mvpa-same-analysis-approach)
+   # [[Defining your region of interest (   ???   )](PlanningYourStudy.md/#defining-your-region-of-interest-------)](#defining-your-region-of-interest-------planningyourstudymddefining-your-region-of-interest-------)
+   # [[Using previous results (   ???   )](PlanningYourStudy.md/#using-previous-results-------)](#using-previous-results-------planningyourstudymdusing-previous-results-------)
+   # [[Localizers (   ???   )](PlanningYourStudy.md/#localizers-------)](#localizers-------planningyourstudymdlocalizers-------)
+   # [[Atlases](PlanningYourStudy.md/#atlases)](#atlasesplanningyourstudymdatlases)
+   # [[Non-standard templates (   ???   )](PlanningYourStudy.md/#non-standard-templates-------)](#non-standard-templates-------planningyourstudymdnon-standard-templates-------)
+ # [ONCE YOU HAVE DATA: quality control](#once-you-have-data-quality-control)
+ # [ONCE YOU HAVE DATA: preprocessing](#once-you-have-data-preprocessing)
+   # [Pipelines  (   ???   )](#pipelines--------)
+   # [Artefact/Noise removal (   ???   )](#artefactnoise-removal-------)
+     # [PCA  (   ???   )](#pca--------)
+     # [ICA  (   ???   )](#ica--------)
+     # [ART (   ???   )](#art-------)
+     # [ART repair (   ???   )](#art-repair-------)
+     # [Physiological noise  (   ???   )](#physiological-noise--------)
+     # [Motion](#motion)
+ # [ANALYSIS: general linear model](#analysis-general-linear-model)
+ # [ANALYSIS: Resting state (   ???   )](#analysis-resting-state-------)
+ # [Diffusion weighted imaging](#diffusion-weighted-imaging)
+ # [ANALYSIS: Model selection (   ???   )](#analysis-model-selection-------)
+ # [ANALYSIS: Statistical inferences and multiple comparison correction (MCP) (   ???   )](#analysis-statistical-inferences-and-multiple-comparison-correction-mcp-------)
+   # [Cluster based inference (   ???   )](#cluster-based-inference-------)
+   # [Family wise error (FWE) (   ???   )](#family-wise-error-fwe-------)
+   # [False discovery rate (FDR) (   ???   )](#false-discovery-rate-fdr-------)
+   # [Permutation tests (   ???   )](#permutation-tests-------)
+     # [SnPM (   ???   )](#snpm-------)
+     # [FSL PALM and Randomize(   ???   )](#fsl-palm-and-randomize------)
+     # [Freesurfer PALM (   ???   )](#freesurfer-palm-------)
+ # [ANALYSIS: Multivariate analysis (   ???   )](#analysis-multivariate-analysis-------)
+   # [Matlab based](#matlab-based)
+     # [TDT](#tdt)
+     # [ProNTo](#pronto)
+     # [RSA toolbox](#rsa-toolbox)
+     # [PCM toolbox](#pcm-toolbox)
+     # [cvMANOVA](#cvmanova)
+   # [Python based](#python-based)
+     # [pyMVPA](#pymvpa)
+     # [nilearn](#nilearn)
+   # [R based (   ???   )](#r-based-------)
+ # [ANALYSIS: Encoding models (   ???   )](#analysis-encoding-models-------)
+   # [Popeye](#popeye)
+   # [SAMSRF](#samsrf)
+ # [ANALYSIS: Robustness checks](#analysis-robustness-checks)
+ # [ANALYSIS: Computational neuroscience](#analysis-computational-neuroscience)
+   # [Free energy](#free-energy)
+   # [Dynamic causal modelling](#dynamic-causal-modelling)
+ # [ANALYSIS: Laminar and high-resolution MRI](#analysis-laminar-and-high-resolution-mri)
+ # [ANALYSIS: Meta analysis (   ???   )](#analysis-meta-analysis-------)
+ # [REPORTING METHODS AND RESULTS (also useful for reviewing papers)](#reporting-methods-and-results-also-useful-for-reviewing-papers)
+   # [A checklist: COBIDAS report](#a-checklist-cobidas-report)
+   # [Percent signal change (   ???   )](#percent-signal-change-------)
+   # [Making figures (   ???   )](#making-figures-------)
+   # [Tools to check results/statistics (   ???   )](#tools-to-check-resultsstatistics-------)
+   # [Peer review (   ???   )](#peer-review-------)
+ # [YOU ARE NOT DONE YET: sharing your code, data and your results](#you-are-not-done-yet-sharing-your-code-data-and-your-results)
+   # [Sharing code](#sharing-code)
+   # [NeuroImaging Data Model (NIDM)](#neuroimaging-data-model-nidm)
+   # [Sharing your data](#sharing-your-data)
+   # [Meta-analysis databases](#meta-analysis-databases)
 
 <!-- /TOC -->
 
@@ -318,9 +318,9 @@ I learnt matlab with a book and by reading other's scripts and with a lot of cof
 * Check out [Cyril Pernet](https://twitter.com/cyrilrpernet) website for SPM/matlab code: [here](http://www.sbirc.ed.ac.uk/cyril/teaching.html) or [there](http://www.sbirc.ed.ac.uk/cyril/Stats.html)
 * Some good tutorials on the CBU if you want to understand [design efficiency](http://imaging.mrc-cbu.cam.ac.uk/imaging/DesignEfficiency), [smoothing](http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesSmoothing), [SPM GLM stats](http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesStatistics) or [how random field theory works to correct for multiple comparison](http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields)
 * Quite a few others on the web
-  - [https://sites.google.com/site/mvlombardo/matlab-tutorials](https://sites.google.com/site/mvlombardo/matlab-tutorials)
-  - [http://spm.martinpyka.de/](http://spm.martinpyka.de/)
-  - [https://www.mccauslandcenter.sc.edu/crnl/tools/spm8-scripts](https://www.mccauslandcenter.sc.edu/crnl/tools/spm8-scripts)
+ # [https://sites.google.com/site/mvlombardo/matlab-tutorials](https://sites.google.com/site/mvlombardo/matlab-tutorials)
+ # [http://spm.martinpyka.de/](http://spm.martinpyka.de/)
+ # [https://www.mccauslandcenter.sc.edu/crnl/tools/spm8-scripts](https://www.mccauslandcenter.sc.edu/crnl/tools/spm8-scripts)
 * But also [too many repos on Github to list them all](https://github.com/search?q=matlab+fmri) but here are some you might come across: [Rik Henson's](https://github.com/MRC-CBU/riksneurotools), the [canlab](https://github.com/canlab)
 
 
@@ -420,322 +420,72 @@ See the [EEG and MEG Softwares page](MEEGsoftwares.md).
 ### [Non-standard templates (   ???   )](PlanningYourStudy.md/#non-standard-templates-------)
 
 
+## Getting data
 
-## ONCE YOU HAVE DATA: quality control
-
-
-
-* [quality control on MRI and fMRI](https://practicalfmri.blogspot.com/2014/08/qa-for-fmri-part-3-facility-qa-what-to.html)
-* [COBIDacq](https://practicalfmri.blogspot.com/2017/12/cobidacq.html)
-* https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing/Data_Quality
-* [Neuroimaging quality control task force](https://crossinvalidation.com/2018/07/31/neuroimaging-quality-control-niqc-task-force-to-develop-protocols-tools-and-manuals/)
-* [References for quality control](https://www.zotero.org/groups/2221093/niqc)
-
-* [MRIQC](https://mriqc.readthedocs.io/en/stable/) MRI quality control. A BIDS app that runs a pipeline to assess the quality of your data.
-* [the PCP Quality Assessment Protocol](https://github.com/BIDS-Apps/QAP) is another BIDS app based on the protocol of [the connectome project data}(http://preprocessed-connectomes-project.org/quality-assessment-protocol/)
-* [Scripts for quality control of diffusion data](http://davidroalf.com/script_download/)
-* https://github.com/memobc/memolab-fmri-qa
-* [Qoala-t](https://github.com/Qoala-T) for QA for freesurfer segmentations also with an online [shinyapp](https://qoala-t.shinyapps.io/qoala-t_app/)
-* [Visual QC](https://github.com/raamana/visualqc) developed by [Pradeep](https://twitter.com/raamana_).
-
-OHBM 2019 session on quality control by Pradeep
-
-## ONCE YOU HAVE DATA: preprocessing
-
-### Pipelines  (   ???   )
-There are some ready made pipeline as [BIDS apps](http://bids-apps.neuroimaging.io/apps/) that already exist and have been tested. Using them might save you time and make your results more reproducible.
-* [AFNI based](https://github.com/BIDS-Apps/afni_proc)
-* [HCP Pipelines](https://github.com/BIDS-Apps/HCPPipelines): a set of tools (primarily, but not exclusively, shell scripts) for processing MRI images for the Human Connectome Project.
-* [fMRIprep](https://fmriprep.readthedocs.io/en/stable/)
-* [The NeuroImaging Analysis Kit](https://github.com/BIDS-Apps/niak): NIAK is a library of pipelines for the preprocessing and mining of large functional neuroimaging data.
-* [Automatic Analysis](https://github.com/BIDS-Apps/aa): is a [pipeline system for neuroimaging](http://automaticanalysis.org/) written primarily in Matlab. It robustly supports recent versions of SPM, as well as selected functions from other software packages. The goal is to facilitate automatic, flexible, and replicable neuroimaging analyses through a comprehensive pipeline system.
-* [nipypelines](https://github.com/BIDS-Apps/nipypelines)
-* [Configurable Pipeline for the Analysis of Connectomes](https://github.com/BIDS-Apps/CPAC): C-PAC is a software for performing high-throughput preprocessing and analysis of functional connectomes data using high-performance computers.
-
-
-There is also an [OPPNI](https://github.com/BIDS-Apps/oppni) for Optimization of Preprocessing Pipelines for NeuroImaging.
-
-
-### Artefact/Noise removal (   ???   )
-
-[GLM denoise](http://kendrickkay.net/GLMdenoise/)
-
-ART repair
-
-ART
-
-
-#### PCA  (   ???   )
-
-#### ICA  (   ???   )
-
-#### ART (   ???   )
-
-#### ART repair (   ???   )
-https://cibsr.stanford.edu/tools/human-brain-project/artrepair-software.html
-
-#### Physiological noise  (   ???   )
-
-http://technicalfmri.blogspot.com/2018/02/physiological-monitoring-and-recording.html?m=1
-
-#### Motion
-
-http://blogs.discovermagazine.com/neuroskeptic/2014/07/06/fmri-scanning-dead/
-http://blogs.discovermagazine.com/neuroskeptic/2013/11/26/head-movement-bad-news-neuroscience/
-http://blogs.discovermagazine.com/neuroskeptic/2012/08/07/brains-in-motion-are-bad-for-neuroscience/
-
-
-## ANALYSIS: general linear model
-
-
-
-
-* a FAQ [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3896880/) on the GLM by Cyril Pernet with [matlab code](https://www.frontiersin.org/articles/file/downloadfile/58014_supplementary-materials_datasheets_1_zip/octet-stream/Data%20Sheet%201.ZIP/2/58014) to go through
-* see the section on [percent signal change](#percent-signal-change) to better understand how to report results
-* orthogonalization of regressors can be a bit hard to wrap your head aroudnd at first but Jeanette Mumford (   ???   ) has great [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126255) on the topic with a [jupyter notebook](http://nbviewer.jupyter.org/github/jmumford/orthogonalizaton_ipynb/blob/master/orthogonalization.ipynb).
-
-SPM tool box for
-
-
-## ANALYSIS: Resting state (   ???   )
-
-
-
-
-I know almost nothing about resting state but I have been told [this site](http://rfmri.org/) is worth having a look at.
-* [Course/Tutorials](http://rfmri.org/Course)
-* Tools (   ???   )
-
-fmridenoise
-neuropycon
-
-## Diffusion weighted imaging
-https://www.kaggle.com/chrisfilo/diffusion-weighted-imaging-dwi-analysis-with-dipy#
-
-
-
-## ANALYSIS: Model selection (   ???   )
-
-
-
-
-[Analytical flexibility](http://blogs.discovermagazine.com/neuroskeptic/2012/06/30/false-positive-neuroscience/) is a big [problem in neuroimaging](http://blogs.discovermagazine.com/neuroskeptic/2012/10/14/more-on-false-positive-neuroimaging/) most likely the source of a lot of false positive results.
-
-
-
-If several analysis are attempted it can be good to have ways to decide amongst them. There is bad way to do like the one described in the [overfitting toolbox](https://www.researchgate.net/publication/319208937_The_Overfitting_Toolbox_TOT_Large-Scale_Search_in_Model_Space_for_Expected_Neuroimaging_Effects).
-
-But there are better ways to do it:
-* The [MACS](https://github.com/JoramSoch/MACS) SPM toolbox by [Joram Soch](https://twitter.com/JoramSoch)
-* (   ???   )
-
-
-
-
-## ANALYSIS: Statistical inferences and multiple comparison correction (MCP) (   ???   )
-
-
-the salmon
-http://neuroskeptic.blogspot.com/2009/09/fmri-gets-slap-in-face-with-dead-fish.html
-
-imager's fallacy
-http://blog.efpsa.org/2014/12/17/a-psychologists-guide-to-reading-a-neuroimaging-paper/
-
-All Resolution Inference: Increasing Spatial Specificity of fMRI with Valid Circular Inference
-https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/115959
-
-
-http://blogs.discovermagazine.com/neuroskeptic/2011/09/11/neuroscience-fails-stats-101/
-
-
-
-### Cluster based inference (   ???   )
-
-
-[Probabilistic Treshold-free Cluster Enhancement](https://spisakt.github.io/pTFCE/)
-pTFCE (probabilistic TFCE) is a cluster-enahncement method to improve detectability of neuroimaging signal. It performs topology-based belief boosting by integrating cluster information into voxel-wise statistical inference.
-
-### Family wise error (FWE) (   ???   )
-
-
-
-
-In case you do not remember how random field theory works to correct for multiple comparison, [check this](http://imaging.mrc-cbu.cam.ac.uk/imaging/PrinciplesRandomFields).
-
-
-
-
-### False discovery rate (FDR) (   ???   )
-
-https://brainder.org/2011/09/05/fdr-corrected-fdr-adjusted-p-values/#comment-15388
-
-
-### Permutation tests (   ???   )
-
-[A primer on permutation testing (not only) for MVPA](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116074) by [Carsten Allefeld](https://twitter.com/c_allefeld) (36 min)
-
-
-The [prevalence test](https://github.com/allefeld/prevalence-permutation)
-
-
-
-
-#### SnPM (   ???   )
-* [website](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/nichols/software/snpm)
-
-#### FSL PALM and Randomize(   ???   )
-
-#### Freesurfer PALM (   ???   )
-
-
-
-## ANALYSIS: Multivariate analysis (   ???   )
-
-http://blogs.discovermagazine.com/neuroskeptic/2014/06/21/fmri-mvpa-crack-neural-code/
-
-https://distill.pub/2016/misread-tsne/
-
-* [Jo Etzel](https://twitter.com/JosetAEtzel) has a great blog if you want to know more about multivariate analysis: [MVPA meandering](http://mvpa.blogspot.co.uk)
-
-[Cross-validation : what, which and how?](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116075) by [Pradeep Reedy Raamana](https://twitter.com/raamana_) at OHBM 2018 (30 min)
-
-
-What can we say about weight maps from linear decoding models?
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116081
-
-Neuroimaging toolboxes for representation similarity analysis (RSA), support vector machine (SVM) and others...
-
-
-
-
-### Matlab based
-
-![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
-
-#### TDT
-TDT is the The Decoding Toolbox.
-* [website](https://sites.google.com/site/tdtdecodingtoolbox/)
-
-#### ProNTo
-PRoNTo is the Pattern Recognition for Neuroimaging Toolbox developed at UCL (UK).
-* [website](http://www.mlnl.cs.ucl.ac.uk/pronto/prtsoftware.html)
-* [manual](http://www.mlnl.cs.ucl.ac.uk/pronto/prtdocs.html)
-* [course/tutorial](http://www.mlnl.cs.ucl.ac.uk/pronto/prtcourses.html)
-
-#### RSA toolbox
-* [website](https://github.com/rsagroup/rsatoolbox)
-* [manual](https://github.com/rsagroup/rsatoolbox/blob/develop/Documentation/toolbox%20documentation.pdf)
-
-#### PCM toolbox
-The pattern components modelling toolbox of the [Diedrichsen lab](https://twitter.com/diedrichsenlab)
-* [website](https://github.com/jdiedrichsen/pcm_toolbox)
-* [manual](https://github.com/jdiedrichsen/pcm_toolbox/blob/master/documentation/pcm_toolbox_manual.pdf)
-
-#### cvMANOVA
-From [Carsten Allefeld](https://twitter.com/c_allefeld)
-* [website](https://github.com/allefeld/cvmanova)
-
-
-### Python based
+### Stimuli presentation softwares
 
 ![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+#### psychopy
+#### expyriment
 
-#### pyMVPA
-Intended to ease statistical learning analyses of large datasets.
-* [website](http://www.pymvpa.org/)
-* [manual](http://www.pymvpa.org/docoverview.html)
-* [course/tutorial](http://www.pymvpa.org/tutorial.html)
-
-#### nilearn
-Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.
-* [website](http://nilearn.github.io/)
-* [manual](http://nilearn.github.io/user_guide.html)
-* [course/tutorial](http://nilearn.github.io/introduction.html#python-for-neuroimaging-a-quick-start)
-
-
-### R based (   ???   )
+![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
+#### psychtoolbox
 
 
 
-## ANALYSIS: Encoding models (   ???   )
+### Existing protocols
 
-https://nikokriegeskorte.org/tag/encoding-models/
+HBP public protocols
 
-#### Popeye
-Python based pRF analysis.
-* [website]https://popeye.readthedocs.io/en/latest/index.html)
+for pRF?
 
-#### SAMSRF
-A pRF analysis toolbox called the Seriously Annoying Matlab SuRFer from [Sam Schwarzkopf](https://twitter.com/sampendu).
-* [website](https://sampendu.net/seriously-annoying-matlab-surfer/)
-
-## ANALYSIS: Robustness checks
-
-Non neuroimaging cases
-* [multiverse analysis]()
-* [specification curves]() presented in a talk at SPSP [here](https://www.youtube.com/watch?v=g75jstZidX0
-* vibration of effects
-
-## ANALYSIS: Computational neuroscience
+Other site centralizing existing protocols?
 
 
-
-This [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5230746/) comes with [some material](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005142#sec011) to apply bayesian decoding analysis to neuronal data can be of interest.
-
-
-
-### Free energy
-
-As someone said on twitter there is a cottage industry of blog posts trying to understand/explain this:
-* https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754
-* http://romainbrette.fr/what-is-computational-neuroscience-xxix-the-free-energy-principle/
-* https://kaiu.me/2017/06/23/deep-active-inference-for-artificial-general-intelligence/
-* http://slatestarcodex.com/2018/03/04/god-help-us-lets-try-to-understand-friston-on-free-energy
-* http://www.aliannajmaren.com/2017/07/27/how-to-read-karl-friston-in-the-original-greek/
-
-
-And a [tutorial](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc)
-
-### Dynamic causal modelling
-[A tutorial series on DCM](https://www.youtube.com/watch?v=q-yypnHgCII&list=PLwiAO9Cs0Tb8wUGAnYY5yIMckB9tc4T3_) by [Kevin Aquino](https://twitter.com/kevin_m_aquino) [6 hrs]
-
-
-
-## ANALYSIS: Laminar and high-resolution MRI
-[Renzo Hubert](https://twitter.com/layerfmri) is keeping track of the most recent development of laminar MRI via twitter but also on his [blog](https://layerfmri.com/). He also curates laminar-fMRI related talks on his [Youtube channel](https://www.youtube.com/channel/UCMjtQ3FD41pAh1VJz-UZGJQ/videos) or papers in this [google spreahsheet](https://docs.google.com/spreadsheets/d/1DFdXA98bYPzK5Gf0M_PbNu3opvO-DIcrv7TMP5ywTMk/edit#gid=0).
-
-* This [blog post](https://layerfmri.com/2018/01/04/layer-fmri-software-in-the-field/) has a list of most of the softwares that are related to laminar fMRI.
-* A [more recent tool](https://github.com/kwagstyl/surface_tools) not listed in there for creating equivolumetric surfaces.
-
-In terms of functional data there is high-res VASO (CBV) dataset [here](https://openneuro.org/datasets/ds001547).
-
-For anatomical data you can have a look [here](   ???   ).
-
-BID conference
-
-## ANALYSIS: Meta analysis (   ???   )
-
-
-
-
-* A [talk](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116072) by [Tom Nichols](https://twitter.com/ten_photos) at OHBM 2018 for an [overview](https://figshare.com/articles/Overview_of_Meta-Analysis_Approaches/6723839)
-* A [practical](https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073) by [Camille Maumet](https://twitter.com/cmaumet) at OHBM 2018 on meta-analysis: [slides] (   ???   )
-* A talk on ALE and brainmap
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
-
-
-[NiMARE](https://github.com/neurostuff/NiMARE) is a Python library for coordinate- and image-based meta-analysis. [Chris Gorgolewski](https://twitter.com/ChrisFiloG) wrote a [tutorial](https://www.kaggle.com/chrisfilo/coordinate-and-image-metaanalysis-with-nimare) on how to use it.
-
-https://github.com/NeuroVault/metanalysis_examples
-
-For coordinate based meta-analysis:
-* [brainmap](http://www.brainmap.org/) with [Sleuth](http://www.brainmap.org/software.html#Sleuth) and [GingerALE](http://www.brainmap.org/software.html#GingerALE)
-
-
-For image based meta-analysis:
-* [IBMA](https://github.com/NeuroimagingMetaAnalysis/ibma) is the Image-Based Meta-Analysis toolbox for SPM.
-
-
+## [ONCE YOU HAVE DATA](OnceYouHaveYourData.md/#once-you-have-data)
+### [quality control](OnceYouHaveYourData.md/#quality-control)
+### [preprocessing](OnceYouHaveYourData.md/#preprocessing)
+#### [Pipelines  (   ???   )](OnceYouHaveYourData.md/#pipelines--------)
+#### [Artefact/Noise removal (   ???   )](OnceYouHaveYourData.md/#artefactnoise-removal-------)
+##### [PCA  (   ???   )](OnceYouHaveYourData.md/#pca--------)
+##### [ICA  (   ???   )](OnceYouHaveYourData.md/#ica--------)
+##### [ART (   ???   )](OnceYouHaveYourData.md/#art-------)
+##### [ART repair (   ???   )](OnceYouHaveYourData.md/#art-repair-------)
+##### [Physiological noise  (   ???   )](OnceYouHaveYourData.md/#physiological-noise--------)
+##### [Motion](OnceYouHaveYourData.md/#motion)
+### [Analysis](OnceYouHaveYourData.md/#analysis)
+#### [general linear model](OnceYouHaveYourData.md/#general-linear-model)
+#### [Model selection (   ???   )](OnceYouHaveYourData.md/#model-selection-------)
+#### [Multivariate analysis (   ???   )](OnceYouHaveYourData.md/#multivariate-analysis-------)
+##### [Matlab based](OnceYouHaveYourData.md/#matlab-based)
+###### [TDT](OnceYouHaveYourData.md/#tdt)
+###### [ProNTo](#pronto)
+###### [RSA toolbox](OnceYouHaveYourData.md/#rsa-toolbox)
+###### [PCM toolbox](OnceYouHaveYourData.md/#pcm-toolbox)
+###### [cvMANOVA](OnceYouHaveYourData.md/#cvmanova)
+##### [Python based](OnceYouHaveYourData.md/#python-based)
+###### [pyMVPA](OnceYouHaveYourData.md/#pymvpa)
+###### [nilearn](OnceYouHaveYourData.md/#nilearn)
+##### [R based (   ???   )](OnceYouHaveYourData.md/#r-based-------)
+#### [Resting state (   ???   )](OnceYouHaveYourData.md/#resting-state-------)
+#### [Diffusion weighted imaging](OnceYouHaveYourData.md/#diffusion-weighted-imaging)
+#### [Statistical inferences and multiple comparison correction (MCP) (   ???   )](OnceYouHaveYourData.md/#statistical-inferences-and-multiple-comparison-correction-mcp-------)
+##### [Cluster based inference (   ???   )](OnceYouHaveYourData.md/#cluster-based-inference-------)
+##### [Family wise error (FWE) (   ???   )](OnceYouHaveYourData.md/#family-wise-error-fwe-------)
+##### [False discovery rate (FDR) (   ???   )](OnceYouHaveYourData.md/#false-discovery-rate-fdr-------)
+##### [Permutation tests (   ???   )](OnceYouHaveYourData.md/#permutation-tests-------)
+##### [SnPM (   ???   )](OnceYouHaveYourData.md/#snpm-------)
+##### [FSL PALM and Randomize(   ???   )](OnceYouHaveYourData.md/#fsl-palm-and-randomize------)
+##### [Freesurfer PALM (   ???   )](OnceYouHaveYourData.md/#freesurfer-palm-------)
+#### [Encoding models (   ???   )](OnceYouHaveYourData.md/#encoding-models-------)
+##### [Popeye](OnceYouHaveYourData.md/#popeye)
+##### [SAMSRF](OnceYouHaveYourData.md/#samsrf)
+### [Robustness checks](OnceYouHaveYourData.md/#robustness-checks)
+### [Computational neuroscience](OnceYouHaveYourData.md/#computational-neuroscience)
+#### [Free energy](OnceYouHaveYourData.md/#free-energy)
+#### [Dynamic causal modelling](OnceYouHaveYourData.md/#dynamic-causal-modelling)
+### [Laminar and high-resolution MRI](OnceYouHaveYourData.md/#laminar-and-high-resolution-mri)
+### [Meta analysis (   ???   )](OnceYouHaveYourData.md/#meta-analysis-------)
 
 
 ## REPORTING METHODS AND RESULTS (also useful for reviewing papers)
@@ -752,8 +502,8 @@ See also Jeanette Mumford's [video](https://www.youtube.com/watch?v=bsM4KowO5Vc)
 * [21 words solution] (   ???   )
 * [Constraints on generality] (   ???   )
 * Other checklists:
-  - [here](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist)
-  - http://jonathanpeelle.net/blog/2016/3/23/a-manuscript-checklist-for-improving-science
+ # [here](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist)
+ # http://jonathanpeelle.net/blog/2016/3/23/a-manuscript-checklist-for-improving-science
 
 
 
@@ -791,8 +541,8 @@ http://eelkespaak.nl/blog/customizing-common-m-eeg-plots-part-2-the-time-frequen
 
 * Color maps
 * http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
-  - color blind friendly
-  - the JET colormap is EVIL
+ # color blind friendly
+ # the JET colormap is EVIL
 * https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
 
 * Dual coded statistical maps
