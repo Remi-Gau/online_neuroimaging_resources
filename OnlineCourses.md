@@ -72,6 +72,7 @@ Worst case it will let you understand [why John von Neumann said](https://www.jo
 > With four parameters I can fit an elephant, and with five I can make him wiggle his trunk.
 
 https://fmrif.nimh.nih.gov/public/other-courses/mvpa
+https://dartbrains.org/intro.html
 
 
 ## Resting state courses (   ???   )

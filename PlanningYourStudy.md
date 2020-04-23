@@ -23,12 +23,8 @@
 
 ## Reusing data
 Some of the main databases are:
-* [OpenNeuro](https://openneuro.org/) for rawdata
-* [INDI](http://fcon_1000.projects.nitrc.org/) for rawdata
-* [neurovault](https://neurovault.org/) for statistical maps
-* [BALSA](https://balsa.wustl.edu/)
-* [LORIS](https://github.com/aces/Loris/wiki/Open-LORIS)
-* [XNAT](https://www.nitrc.org/ir/)
+
+
 * [Pain repository](https://www.painrepository.org/])
 * [GIN](https://gin.g-node.org/)
 
@@ -46,7 +42,7 @@ There are some tools that help you search through them like the metasearch tool 
 Open science resources for neuroimaging research
 https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116089
 https://github.com/Conxz/multiBrain
-https://github.com/cMadan/openMorph
+
 
 
 ## Defining your terms and your task
