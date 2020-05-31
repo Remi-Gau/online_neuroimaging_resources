@@ -127,6 +127,7 @@ I am also working on a companion [reading list] (  ???  ).
     - [Sharing code](#sharing-code)
     - [NeuroImaging Data Model (NIDM)](#neuroimaging-data-model-nidm)
     - [Sharing your data](#sharing-your-data)
+      - [Sharing your data on GIN using datalad](#sharing-your-data-on-gin-using-datalad)
     - [Meta-analysis databases](#meta-analysis-databases)
 
 <!-- /TOC -->
@@ -613,6 +614,35 @@ Some of the main databases where you can put your data are:
 * [Pain repository](https://www.painrepository.org/])
 
 But there are [many](https://brainhack101.github.io/neurolinks/) other [possibilities](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) to share your raw and/or pre-processed data. Maybe your university or your institute has ways to help you share your data (e.g the [Donders institute](https://data.donders.ru.nl/?0).
+
+#### Sharing your data on GIN using datalad
+
+- Install datalad on your computer. See [here](http://handbook.datalad.org/en/latest/intro/installation.html)
+- Open a terminal and go into the folder where the data you want to put on GIN is.
+- Intialize a datalad dataset:
+```
+datalad create -d . -c text2git ls-D 'what this data is about' --force
+```
+- Add and commit all the untracked files
+```
+datalad save -m 'adding files'
+```
+
+- Get yourself a GIN ton... account. [A GIN account](https://gin.g-node.org)
+- Set up access with SSH to your accoun. See [here](http://handbook.datalad.org/en/latest/basics/101-139-gin.html#prerequisites)
+- Create an **emtpy** repository: make sure you tick the box at the bottom that will prevent the creation of a README and a licence file
+- Copy the the ssh adress you need to push your data there and use that to add this repository as a remote to your local one
+```
+datalad siblings -d . add --name gin --url git@gin.g-node.org:/USERNAME/name_of_gin_repo.git
+```
+- push your data
+```
+datalad publish -d. --to gin
+```
+- push your data with the 'annexed' data (meaning the actual content of the files)
+```
+datalad publish -d. --to gin --transfer-data all
+```
 
 
 FAIR data

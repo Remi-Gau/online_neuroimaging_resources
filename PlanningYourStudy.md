@@ -26,7 +26,7 @@ Some of the main databases are:
 
 
 * [Pain repository](https://www.painrepository.org/])
-* [GIN](https://gin.g-node.org/)
+
 
 But there are [many](https://brainhack101.github.io/neurolinks/) [possibilities](https://en.wikipedia.org/wiki/List_of_neuroscience_databases) [of](https://www.nitrc.org/search/?type_of_search=group&rows=20&s=relevancy&cat=325%3AData) [databases](https://www.nitrc.org/search/?type_of_search=group&offset=0&removeterm=&cat=313%3ADatabase&compare=&q=&rows=20&s=relevancy&file=%2Ffrs%2Fdownloadlink.php%2F9275&file=%2Ffrs%2Fdownloadlink.php%2F9336&file=%2Ffrs%2Fdownloadlink.php%2F3981&file=%2Ffrs%2Fdownload.php%2F9300%2Fdti_atlas.nrrd&file=%2Ffrs%2Fdownload.php%2F6716%2F3DMetricTools1.4.3-Windows.tar&file=%2Ffrs%2Fdownloadlink.php%2F5884&file=%2Ffrs%2Fdownload.php%2F860%2FLesionSegmentationTutorialData.tgz&file=%2Ffrs%2Fdownloadlink.php%2F10354&file=%2Ffrs%2Fdownload.php%2F7345%2FCONFREP_new_bvecs.zip&file=%2Ffrs%2Fdownload.php%2F5348%2FDemoData.zip&file=%2Ffrs%2Fdownload.php%2F10036%2F7T3T_NITRC.tar.gz&file=%2Ffrs%2Fdownloadlink.php%2F6725&file=%2Ffrs%2Fdownload.php%2F9277%2FLC_prob_atlas_mni05.zip&file=%2Ffrs%2Fdownloadlink.php%2F4074&file=%2Ffrs%2Fdownload.php%2F4969%2FaBEAT.zip&xrowsx=20&s=relevancy) where you can find your raw and/or pre-processed data. Maybe your university or your institute already ahs a repository of published data (e.g the [Donders institute](https://data.donders.ru.nl/?0).
 
@@ -41,7 +41,7 @@ There are some tools that help you search through them like the metasearch tool 
 
 Open science resources for neuroimaging research
 https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116089
-https://github.com/Conxz/multiBrain
+
 
 
 
