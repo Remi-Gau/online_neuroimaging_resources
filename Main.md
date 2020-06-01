@@ -101,17 +101,11 @@ Note also that some of the sectioning is bit arbitrary: I try to put cross-links
 
 ---
 
-## Metalist
+## [Metalist](.Metalist.md)
 
-See the [metalist](.Metalist.md).
+## [Online courses](.OnlinesCourses.md)
 
-## Online courses
-
-See the [online courses page](.OnlinesCourses.md).
-
-## Video series
-
-See the [video series](.VideoSeries.md).
+## [Video series](.VideoSeries.md)
 
 ## Blogs
 
@@ -255,9 +249,9 @@ See also Jeanette Mumford's [video](https://www.youtube.com/watch?v=bsM4KowO5Vc)
 * [Constraints on generality] (   ???   )
 
 * Other checklists:
- # [here](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist)
+-   [here](http://biostat.mc.vanderbilt.edu/wiki/Main/ManuscriptChecklist)
 
- # http://jonathanpeelle.net/blog/2016/3/23/a-manuscript-checklist-for-improving-science
+-   http://jonathanpeelle.net/blog/2016/3/23/a-manuscript-checklist-for-improving-science
 
 ### Percent signal change (   ???   )
 
@@ -287,13 +281,12 @@ https://f1000research.com/articles/4-466/v1 -->
 blog and paper guillaume Rousselet
 http://eelkespaak.nl/blog/customizing-common-m-eeg-plots-part-2-the-time-frequency-representation-tfr/
 
-* Color maps
-* http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
- # color blind friendly
- # the JET colormap is EVIL
-* https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
-
-* Dual coded statistical maps
+#### Color maps
+-   http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+-   color blind friendly
+-   the JET colormap is EVIL
+-   https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
+-    Dual coded statistical maps
 [Code](http://mialab.mrn.org/datavis/) to display beta values and t values on the same map. From the *Data visualization in the neurosciences: overcoming the curse of dimensionality* [paper](https://www.ncbi.nlm.nih.gov/pubmed/22632718).
 
 ### Tools to check results/statistics (   ???   )
@@ -360,15 +353,15 @@ datalad save -m 'adding files'
 - Create an **emtpy** repository: make sure you tick the box at the bottom that will prevent the creation of a README and a licence file
 - Copy the the ssh adress you need to push your data there and use that to add this repository as a remote to your local one
 ```
-datalad siblings -d . add --name gin --url git@gin.g-node.org:/USERNAME/name_of_gin_repo.git
+datalad siblings add -d . --name gin --url git@gin.g-node.org:/USERNAME/name_of_gin_repo.git
 ```
 - push your data
 ```
-datalad publish -d. --to gin
+datalad publish -d . --to gin
 ```
 - push your data with the 'annexed' data (meaning the actual content of the files)
 ```
-datalad publish -d. --to gin --transfer-data all
+datalad publish -d . --to gin --transfer-data all
 ```
 
 ### Meta-analysis databases
