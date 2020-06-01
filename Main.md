@@ -91,7 +91,7 @@ Note also that some of the sectioning is bit arbitrary: I try to put cross-links
 
 ## [Metalist](Metalist.md)
 
-## [Online courses](OnlinesCourses.md)
+## [Online courses](OnlineCourses.md)
 
 ## [Video series](VideoSeries.md)
 
@@ -203,12 +203,10 @@ Some of those might help you learn or revise your neuroanatomy:
 
 ### Stimuli presentation softwares
 
-![Language](https://img.shields.io/badge/Language-Python-blue.svg)
 #### psychopy
 
 #### expyriment
 
-![Language](https://img.shields.io/badge/Language-Matlab-orange.svg)
 #### psychtoolbox
 
 https://peterscarfe.com/ptbtutorials.html
