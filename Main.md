@@ -89,11 +89,11 @@ Note also that some of the sectioning is bit arbitrary: I try to put cross-links
 
 ---
 
-## [Metalist](.Metalist.md)
+## [Metalist](Metalist.md)
 
-## [Online courses](.OnlinesCourses.md)
+## [Online courses](OnlinesCourses.md)
 
-## [Video series](.VideoSeries.md)
+## [Video series](VideoSeries.md)
 
 ## Blogs
 
