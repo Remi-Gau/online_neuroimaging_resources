@@ -328,7 +328,7 @@ Another good reason to use the NIDM model is that it facilitates uploading them 
 - Open a terminal and go into the folder where the data you want to put on GIN is.
 - Intialize a datalad dataset:
 ```
-datalad create -d . -c text2git ls-D 'what this data is about' --force
+datalad create -c text2git -D 'what this data is about' --force
 ```
 - Add and commit all the untracked files
 ```
