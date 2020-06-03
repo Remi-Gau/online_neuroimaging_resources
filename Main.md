@@ -11,9 +11,9 @@ I am also working on a companion [reading list] (  ???  ).
 <!-- TOC -->
 
 - [On-line neuroimaging resources](#on-line-neuroimaging-resources)
-  - [[Metalist](.Metalist.md)](#metalistmetalistmd)
-  - [[Online courses](.OnlinesCourses.md)](#online-coursesonlinescoursesmd)
-  - [[Video series](.VideoSeries.md)](#video-seriesvideoseriesmd)
+  - [[Metalist](Metalist.md)](#metalistmetalistmd)
+  - [[Online courses](OnlineCourses.md)](#online-coursesonlinecoursesmd)
+  - [[Video series](VideoSeries.md)](#video-seriesvideoseriesmd)
   - [Blogs](#blogs)
   - [Where to ask for help](#where-to-ask-for-help)
   - [Image formats](#image-formats)
@@ -35,7 +35,7 @@ I am also working on a companion [reading list] (  ???  ).
       - [psychtoolbox](#psychtoolbox)
     - [Existing protocols](#existing-protocols)
   - [[ONCE YOU HAVE DATA](OnceYouHaveYourData.md/#once-you-have-data)](#once-you-have-dataonceyouhaveyourdatamdonce-you-have-data)
-  - [REPORTING METHODS AND RESULTS (also useful for reviewing papers)](#reporting-methods-and-results-also-useful-for-reviewing-papers)
+  - [[REPORTING METHODS AND RESULTS (also useful for reviewing papers)](ReportingMethodsAndResults.md/#once-you-have-data/#reporting-methods-and-results)](#reporting-methods-and-results-also-useful-for-reviewing-papersreportingmethodsandresultsmdonce-you-have-datareporting-methods-and-results)
     - [A checklist: COBIDAS report](#a-checklist-cobidas-report)
     - [Percent signal change (   ???   )](#percent-signal-change-------)
     - [Making figures (   ???   )](#making-figures-------)
@@ -221,7 +221,7 @@ Other site centralizing existing protocols?
 
 ## [ONCE YOU HAVE DATA](OnceYouHaveYourData.md/#once-you-have-data)
 
-## REPORTING METHODS AND RESULTS (also useful for reviewing papers)
+## [REPORTING METHODS AND RESULTS (also useful for reviewing papers)](ReportingMethodsAndResults.md/#once-you-have-data/#reporting-methods-and-results)
 
 ### A checklist: COBIDAS report
 
