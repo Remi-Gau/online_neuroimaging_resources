@@ -15,11 +15,11 @@
   by Dorota Jarecka, Satrajit Ghosh, Celia Greenwood and Jean-Baptiste Poline at
   OHBM (3 hr 45 min)
 
-http://blogs.discovermagazine.com/neuroskeptic/2012/06/14/brains-are-different-on-macs/
+- http://blogs.discovermagazine.com/neuroskeptic/2012/06/14/brains-are-different-on-macs/
 
 Same Data - Different Software - Different Results? Analytic Variability of
 Group fMRI Results.
-https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/116000
+- https://www.pathlms.com/ohbm/courses/8246/sections/12541/video_presentations/116000
 
 There are a few options you can investigate to make your analysis more
 replicable and reproducible. On top of [sharing your data and your
@@ -62,13 +62,13 @@ by [Fernando Perez](https://twitter.com/fperez_org), one the person behind the
 jupyter project.
 
 Neuroimaging Workflows & Statistics for reproducibility
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115885
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115885
 Neuroinformatics and Replication: beyond BASH scripts and winner’s curses
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116085
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116085
 Introduction to reproducible neuroimaging
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115884
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/115884
 Reproducibility and replicability: a practical approach
-https://www.pathlms.com/ohbm/courses/8246/sections/12538/video_presentations/116214
+- https://www.pathlms.com/ohbm/courses/8246/sections/12538/video_presentations/116214
 
 ## Ethics and consent forms
 

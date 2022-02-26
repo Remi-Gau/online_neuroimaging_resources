@@ -54,7 +54,6 @@ I am also working on a companion [reading list] ( ??? ).
     - [Sharing code](#sharing-code)
     - [Sharing your data](#sharing-your-data)
       - [NeuroImaging Data Model (NIDM)](#neuroimaging-data-model-nidm)
-      - [Sharing your data on GIN using datalad](#sharing-your-data-on-gin-using-datalad)
     - [Meta-analysis databases](#meta-analysis-databases)
 
 <!-- /TOC -->
@@ -89,15 +88,17 @@ https://www.theguardian.com/science/head-quarters/2014/apr/01/fmri-brain-imaging
 
 ---
 
-**How to use this document** Most people don't use a map by starting in the
-upper left corner, scanning horizontally till they end up in the bottom right
-corner (or however it is that people read in the region of the world you are in
-at the moment). Similarly this document is obviously not meant to be read from
-top to bottom. The best is to browse the **Table of content** below and jump to
-section that interests you. For that reason there is some redundancy in the
-content. This also means that this document is not a cookbook: I just try to
-list things that could apply a to wide variety of topics and context, but in
-many cases only a handful of those will be relevant to you.
+**How to use this document**
+
+Most people don't use a map by starting in the upper left corner, scanning
+horizontally till they end up in the bottom right corner (or however it is that
+people read in the region of the world you are in at the moment). Similarly this
+document is obviously not meant to be read from top to bottom. The best is to
+browse the **Table of content** below and jump to section that interests you.
+For that reason there is some redundancy in the content. This also means that
+this document is not a cookbook: I just try to list things that could apply a to
+wide variety of topics and context, but in many cases only a handful of those
+will be relevant to you.
 
 Note also that some of the sectioning is bit arbitrary: I try to put cross-links
 where useful.
@@ -161,16 +162,16 @@ But if you have more general questions you can also try :
 
 ### s and q matrices
 
-https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform_brief_usage/document_view
-https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Orientation%20Explained
-http://gru.stanford.edu/doku.php/mrTools/coordinateTransforms
+- https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform_brief_usage/document_view
+- https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Orientation%20Explained
+- http://gru.stanford.edu/doku.php/mrTools/coordinateTransforms
 
 more on nibabel
 
 ### NIFTI
 
-https://brainder.org/2012/09/23/the-nifti-file-format/#comment-16430
-https://brainder.org/2015/04/03/the-nifti-2-file-format/
+- https://brainder.org/2012/09/23/the-nifti-file-format/#comment-16430
+- https://brainder.org/2015/04/03/the-nifti-2-file-format/
 
 ## UNIX command line
 
@@ -205,8 +206,8 @@ you might wanna switch if only because
 [matlab breeds](http://neuroplausible.com/matlab)
 [bad coding habits](http://www.rath.org/matlab-is-a-terrible-programming-language.html).
 
-https://metarabbit.wordpress.com/2013/10/18/why-python-is-better-than-matlab-for-scientific-software/
-https://www.stat.washington.edu/~hoytak/blog/whypython.html
+- https://metarabbit.wordpress.com/2013/10/18/why-python-is-better-than-matlab-for-scientific-software/
+- https://www.stat.washington.edu/~hoytak/blog/whypython.html
 
 Here too there are plenty of generic python courses on
 [datacamp](https://www.datacamp.com/tracks/python-programmer),
@@ -227,7 +228,7 @@ There are also a
 [course](https://www.fz-juelich.de/ias/jsc/EN/Expertise/Services/Documentation/presentations/presentation-matlab2python_table.html?nn=362392)
 that might ease the transition from matlab to python.
 
-https://docs.scipy.org/doc/numpy-1.14.0/user/numpy-for-matlab-users.html
+- https://docs.scipy.org/doc/numpy-1.14.0/user/numpy-for-matlab-users.html
 
 If you turn to neuroimaging in python I guess you will first want to go to check
 the [nipy website](http://nipy.org/) and then turn to
@@ -472,54 +473,6 @@ Another good reason to use the NIDM model is that it facilitates uploading them
 to a site like [neurovault](https://neurovault.org/) where you can store them
 and share them with others.
 
-#### Sharing your data on GIN using datalad
-
-- Install datalad on your computer. See
-  [here](http://handbook.datalad.org/en/latest/intro/installation.html)
-
-- Open a terminal and go into the folder where the data you want to put on GIN
-  is.
-
-- Intialize a datalad dataset:
-
-```
-datalad create -c text2git -D 'what this data is about' --force
-```
-
-- Add and commit all the untracked files
-
-```
-datalad save -m 'adding files'
-```
-
-- Get yourself a GIN ton... account. [A GIN account](https://gin.g-node.org)
-
-- Set up access with SSH to your accoun. See
-  [here](http://handbook.datalad.org/en/latest/basics/101-139-gin.html#prerequisites
-
-- Create an **emtpy** repository: make sure you tick the box at the bottom that
-  will prevent the creation of a README and a licence file
-
-- Copy the the ssh adress you need to push your data there and use that to add
-  this repository as a remote to your local one
-
-```
-datalad siblings add -d . --name gin --url git@gin.g-node.org:/USERNAME/name_of_gin_repo.git
-```
-
-- push your data
-
-```
-datalad publish -d . --to gin
-```
-
-- push your data with the 'annexed' data (meaning the actual content of the
-  files)
-
-```
-datalad publish -d . --to gin --transfer-data all
-```
-
 ### Meta-analysis databases
 
 Another thing you can do to share your published results is to add them to
@@ -529,16 +482,16 @@ for this you could use [brainspell](http://brainspell.org/) and
 [Scribe](http://www.brainmap.org/software.html#Scribe).
 
 Practical Intensity Based Meta-Analysis
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116073
 
 Foundations and potential of meta-analyses
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116068
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116068
 
 ALE and BrainMap
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116066
 
 How to Plan and Prepare a Meta-Analysis
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116069
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116069
 
 Neuroinformatics resources for coordinate and image-based meta-analysis
-https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116071
+- https://www.pathlms.com/ohbm/courses/8246/sections/12542/video_presentations/116071

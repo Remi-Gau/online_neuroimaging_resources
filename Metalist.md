@@ -32,7 +32,7 @@ the ones you find in there might not be tailored to your lab's needs.
 
 And here are some neuroimaging oriented lab wikis:
 
-- [Mariam Aly's](https://twitter.com/mariam_s_aly) lab wiki is
+- [Mariam Aly's](https://twitter.com/mariam_s_aly) lab wiki isds
   [there](https://osf.io/kgd9b/wiki/home/).
 - [Jonathan Peelle](@jpeelle) has a great
   [list of resources](http://jonathanpeelle.net/mri-resources-for-beginners) for
